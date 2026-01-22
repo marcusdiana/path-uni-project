@@ -75,7 +75,7 @@ io.on('connect', (socket) => {
 app.use(errorHandler);
 
 // Run the server
-const port= 5000 || process.env.PORT;
+const port = process.env.PORT;
 
 server.listen(port, () => {
 console.log(`Server is running on port: ${port}`);
